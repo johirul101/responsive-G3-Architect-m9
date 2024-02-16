@@ -8,6 +8,11 @@
 
     font-family: "Work Sans", sans-serif;
 }
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
 .text-light-gray{
     margin: 10px 0px;
     color: rgb(114,114,114);
@@ -33,11 +38,7 @@ nav{
     align-items: center;
 
 }
-.nav-title{
-    font-size: 2rem;
-    font-weight: 700;
-    color: black;
-}
+
 nav > ul {
     display: flex;
     gap: 20px;
@@ -113,9 +114,33 @@ main{
     color: rgb(253,110,10);
 }
 /* main styles up here */
+/* --------------------------------------------------------------------------------------- */
+/* fact section styles down here */
+.facts-card-container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border: 2px solid rgb(253,110,10);
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: black;
 
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgb(114,114,114);
+}
+/* fact section styles up here */
 
-/* responsive styles  */
+/* ------------------------------------------------------------------------------------------ */
+/* responsive styles down here */
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
