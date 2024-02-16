@@ -8,3 +8,94 @@
 
     font-family: "Work Sans", sans-serif;
 }
+.btn-primary{
+    background-color: rgb(253,110,10);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px ;
+    font-size: 1.25rem;
+
+}
+/* header styles down here */
+header{
+    background-color: rgb(255,244,231);
+    padding: 50px 240px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+nav > ul {
+    display: flex;
+    gap: 20px;
+}
+nav li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+/* header styles up here */
+/* ---------------------------------------------------------------------------- */
+/* banner styles down here */
+.banner{
+    /* margin-top: 50px; */
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    margin: 10px auto;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.541);
+    margin: 10px auto;
+}
+.banner img{
+    width: 100%;
+
+}
+/* banner styles down here */
+
+
+
+/* responsive styles  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+/* tablet or medium device */
+@media screen and (min-width:577px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+}
