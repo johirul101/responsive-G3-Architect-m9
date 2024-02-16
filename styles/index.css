@@ -13,9 +13,9 @@
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 20px 25px ;
+    padding: 10px 15px ;
     font-size: 1.25rem;
-
+    margin: 5px 0px;
 }
 /* header styles down here */
 header{
@@ -74,7 +74,45 @@ li a{
 
 }
 /* banner styles down here */
+/* ----------------------------------------------------------------- */
+/* main styles down here*/
+main{
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    margin: 0px auto;
 
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding: 0px 50px;
+}
+.teams-content{
+    padding: 0px 50px;
+}  
+.teams-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+
+    margin: 10px 0px;
+}
+.teams-description{
+    margin: 10px 0px;
+}
+.quick-list{
+    color: rgb(114,114,114);
+}
+.text-features{
+    color: rgb(253,110,10);
+}
+/* main styles up here */
 
 
 /* responsive styles  */
